@@ -31,7 +31,7 @@ const CursorProvider = ({ children }) => {
     } else {
       setcursorBG('none');
     }
-  })
+  }, [mobileViewPortIsActive])
 
 
   const cursorVariants = {

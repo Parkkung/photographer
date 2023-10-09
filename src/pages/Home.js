@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import WomanImg from '../img/home/woman.png'
+import HomeImg from '../img/home/park_home.JPG'
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
@@ -48,7 +48,7 @@ const Home = () => {
               <motion.img
               whileHover={{scale: 1.1}}
               transition={transition1}
-              src={WomanImg} alt='home'/>
+              src={HomeImg} alt='home'/>
             </motion.div>
           </div>
         </div>

@@ -20,27 +20,32 @@ const Socials = () => {
     <ul className='flex gap-x-4'>
       <li>
         <a href='http://www.facebook.com'>
-          <ImFacebook /> 
+          <ImFacebook 
+          className=' text-neutral-300' /> 
         </a>
       </li>
       <li>
         <a href='http://www.twitter.com'>
-          <ImTwitter /> 
+          <ImTwitter 
+          className=' text-neutral-300'/> 
         </a>
       </li>
       <li>
         <a href='http://www.pinterest.com'>
-          <ImPinterest /> 
+          <ImPinterest 
+          className=' text-neutral-300'/> 
         </a>
       </li>
       <li>
         <a href='http://www.instagram.com'>
-          <ImInstagram /> 
+          <ImInstagram 
+          className=' text-neutral-300'/> 
         </a>
       </li>
       <li>
         <a href='http://www.youtube.com'>
-          <ImYoutube /> 
+          <ImYoutube 
+          className=' text-neutral-300'/> 
         </a>
       </li>
     </ul>

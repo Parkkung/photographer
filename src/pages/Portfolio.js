@@ -5,7 +5,7 @@ import Image3 from '../img/portfolio/3.png'
 import Image4 from '../img/portfolio/4.png'
 import Image5 from '../img/portfolio/5.png'
 import Image6 from '../img/portfolio/6.png'
-import Image7 from '../img/home/woman.png'
+import Image7 from '../img/about/woman.png'
 import Image8 from '../img/about/woman.png'
 
 import { Link } from 'react-router-dom';

@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import HomeImg from '../img/home/park_home.JPG'
+// import HomeImg from '../img/home/woman.png'
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { transition1 } from '../transitions';
@@ -38,17 +39,19 @@ const Home = () => {
             </Link>
           </motion.div>
           {/* img */}
-          <div className='flex justify-end max-h-96 lg:max-h-max'>
+          <div className='flex justify-end max-h-96 lg:max-h-max max-sm:justify-center'>
             <motion.div
             initial={{scale: 0}}
             animate={{scale: 1}}
             exit={{scale: 0}}
             transition={transition1}
-            className='relative lg:-right-40 overflow-hidden'>
+            className='relative lg:-right-40 overflow-hidden max-sm:w-3/5 '>
               <motion.img
               whileHover={{scale: 1.1}}
               transition={transition1}
-              src={HomeImg} alt='home'/>
+              src={HomeImg} alt='home'
+              className=' w-[750px]'
+              />
             </motion.div>
           </div>
         </div>

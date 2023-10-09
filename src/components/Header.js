@@ -25,16 +25,16 @@ const Header = () => {
         onMouseEnter={mouseEnterHandler}
         onMouseLeave={mouseLeaveHandler}
         className='hidden xl:flex gap-x-12 font-semibold'>
-          <Link to={'/'} className="text-stone-500 hover:text-primary transition">
+          <Link to={'/'} className="text-neutral-300 hover:text-primary transition">
             Home
           </Link>
-          <Link to={'/about'} className="text-stone-500 hover:text-primary transition">
+          <Link to={'/about'} className="text-neutral-300 hover:text-primary transition">
             About
           </Link>
-          <Link to={'/portfolio'} className="text-stone-500 hover:text-primary transition">
+          <Link to={'/portfolio'} className="text-neutral-300 hover:text-primary transition">
             Portfolio
           </Link>
-          <Link to={'/contact'} className="text-stone-500 hover:text-primary transition">
+          <Link to={'/contact'} className=" text-neutral-300 hover:text-primary transition">
             Contact
           </Link>
         </nav>
